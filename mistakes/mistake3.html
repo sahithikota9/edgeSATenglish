@@ -14,19 +14,18 @@
     gtag('config', 'G-ZEB2R7SLXS');
   </script>
 </head>
-
 <body>
   <h1>Mistake #3: Solving for the Wrong Variable</h1>
   <p><em>Section: Math</em></p>
 
   <div class="section">
     <div class="label">Why students pick it</div>
-    <p>The equation looks familiar, so students solve automatically.</p>
+    <p>The equation looks familiar, so students solve automatically without checking what the question asks.</p>
   </div>
 
   <div class="section">
     <div class="label">Why it’s wrong</div>
-    <p>The question often asks for an expression based on the variable, not the variable itself.</p>
+    <p>The SAT may ask for an expression based on the variable, not the variable itself.</p>
   </div>
 
   <div class="section">
@@ -38,6 +37,25 @@
     <div class="label">How to avoid it</div>
     <p>Write down exactly what the final answer must represent before solving.</p>
   </div>
+
+  <div class="section">
+    <div class="label">Try it yourself!</div>
+    <p>Solve: If 2x + 3 = 7, what is 2x + 3?</p>
+    <input type="text" id="answer3">
+    <button onclick="checkAnswer3()">Check</button>
+    <p id="feedback3"></p>
+  </div>
+
+  <script>
+    function checkAnswer3(){
+      let val = parseFloat(document.getElementById('answer3').value);
+      if(val === 7){
+        document.getElementById('feedback3').textContent = "Correct!";
+      } else {
+        document.getElementById('feedback3').textContent = "Try Again";
+      }
+    }
+  </script>
 
   <a class="button" href="../mistakes.html">← Back to Mistakes</a>
 </body>

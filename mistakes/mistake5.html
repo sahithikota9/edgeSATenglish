@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mistake #5</title>
+  <link rel="stylesheet" href="../style.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEB2R7SLXS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZEB2R7SLXS');
+  </script>
+</head>
+<body>
+<h1>Mistake #5: Ignoring Units or Conversions</h1>
+<p><em>Section: Math</em></p>
+<div class="section">
+  <div class="label">Why students pick it</div>
+  <p>They read numbers but ignore units (e.g., miles vs. km, hours vs. minutes).</p>
+</div>
+<div class="section">
+  <div class="label">Why it’s wrong</div>
+  <p>The SAT expects answers in the units specified. Ignoring conversions leads to errors.</p>
+</div>
+<div class="section">
+  <div class="label">What the SAT is testing</div>
+  <p>Attention to detail and careful unit conversion.</p>
+</div>
+<div class="section">
+  <div class="label">How to avoid it</div>
+  <p>Always write down units and convert if needed before calculating. Circle or underline units in word problems.</p>
+</div>
+<div class="section">
+  <div class="label">Try it yourself!</div>
+  <p>Convert 5 miles to kilometers. (1 mile ≈ 1.609 km)</p>
+  <input type="text" id="answer5">
+  <button onclick="checkAnswer5()">Check</button>
+  <p id="feedback5"></p>
+</div>
+<script>
+  function checkAnswer5(){
+    let val = parseFloat(document.getElementById('answer5').value);
+    if(Math.abs(val-8.045)<0.01){
+      document.getElementById('feedback5').textContent = "Correct!";
+    } else {
+      document.getElementById('feedback5').textContent = "Try Again";
+    }
+  }
+</script>
+<a class="button" href="../mistakes.html">← Back to Mistakes</a>
+</body>
+</html>

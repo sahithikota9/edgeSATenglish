@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mistake #12</title>
+<link rel="stylesheet" href="../style.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEB2R7SLXS"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-ZEB2R7SLXS');
+</script>
+</head>
+<body>
+<h1>Mistake #12: Not Checking for Extraneous Solutions</h1>
+<p><em>Section: Math</em></p>
+<div class="section">
+<div class="label">Why students pick it</div>
+<p>They solve equations quickly without considering domain restrictions.</p>
+</div>
+<div class="section">
+<div class="label">Why it’s wrong</div>
+<p>Some solutions may not satisfy the original equation or constraints.</p>
+</div>
+<div class="section">
+<div class="label">What the SAT is testing</div>
+<p>Logical reasoning and constraint management.</p>
+</div>
+<div class="section">
+<div class="label">How to avoid it</div>
+<p>Always check each solution against the original problem.</p>
+</div>
+<div class="section">
+<div class="label">Try it yourself!</div>
+<p>Solve √(x) = -2. Does x = 4 work?</p>
+<input type="text" id="answer12">
+<button onclick="checkAnswer12()">Check</button>
+<p id="feedback12"></p>
+</div>
+<script>
+function checkAnswer12(){
+  let val=document.getElementById('answer12').value.trim().toLowerCase();
+  if(val==="no"){document.getElementById('feedback12').textContent="Correct!";}
+  else{document.getElementById('feedback12').textContent="Try Again";}
+}
+</script>
+<a class="button" href="../mistakes.html">← Back to Mistakes</a>
+</body>
+</html>

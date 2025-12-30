@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mistake #13</title>
+<link rel="stylesheet" href="../style.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEB2R7SLXS"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-ZEB2R7SLXS');
+</script>
+</head>
+<body>
+<h1>Mistake #13: Skipping Steps in Multi-Step Problems</h1>
+<p><em>Section: Math</em></p>
+<div class="section">
+<div class="label">Why students pick it</div>
+<p>They try to solve too quickly and omit steps.</p>
+</div>
+<div class="section">
+<div class="label">Why it’s wrong</div>
+<p>Skipping steps increases arithmetic errors.</p>
+</div>
+<div class="section">
+<div class="label">What the SAT is testing</div>
+<p>Methodical problem solving and accuracy.</p>
+</div>
+<div class="section">
+<div class="label">How to avoid it</div>
+<p>Write every intermediate step carefully, even if it seems obvious.</p>
+</div>
+<div class="section">
+<div class="label">Try it yourself!</div>
+<p>Compute: (5+3) × 2</p>
+<input type="text" id="answer13">
+<button onclick="checkAnswer13()">Check</button>
+<p id="feedback13"></p>
+</div>
+<script>
+function checkAnswer13(){
+  let val=parseFloat(document.getElementById('answer13').value);
+  if(val===16){document.getElementById('feedback13').textContent="Correct!";}
+  else{document.getElementById('feedback13').textContent="Try Again";}
+}
+</script>
+<a class="button" href="../mistakes.html">← Back to Mistakes</a>
+</body>
+</html>

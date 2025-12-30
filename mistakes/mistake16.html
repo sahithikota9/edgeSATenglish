@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mistake #16</title>
+<link rel="stylesheet" href="../style.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEB2R7SLXS"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-ZEB2R7SLXS');
+</script>
+</head>
+<body>
+<h1>Mistake #16: Misusing Proportions / Ratios</h1>
+<p><em>Section: Math</em></p>
+<div class="section">
+<div class="label">Why students pick it</div>
+<p>They confuse numerators and denominators or swap values incorrectly.</p>
+</div>
+<div class="section">
+<div class="label">Why it’s wrong</div>
+<p>Incorrect setup produces wrong answers even if arithmetic is correct.</p>
+</div>
+<div class="section">
+<div class="label">What the SAT is testing</div>
+<p>Ratio understanding and correct setup.</p>
+</div>
+<div class="section">
+<div class="label">How to avoid it</div>
+<p>Set up ratios carefully and double-check which quantity corresponds to numerator vs denominator.</p>
+</div>
+<div class="section">
+<div class="label">Try it yourself!</div>
+<p>If 3 pencils cost $2, how much do 9 pencils cost?</p>
+<input type="text" id="answer16">
+<button onclick="checkAnswer16()">Check</button>
+<p id="feedback16"></p>
+</div>
+<script>
+function checkAnswer16(){
+  let val=parseFloat(document.getElementById('answer16').value);
+  if(val===6){document.getElementById('feedback16').textContent="Correct!";}
+  else{document.getElementById('feedback16').textContent="Try Again";}
+}
+</script>
+<a class="button" href="../mistakes.html">← Back to Mistakes</a>
+</body>
+</html>

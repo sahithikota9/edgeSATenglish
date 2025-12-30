@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mistake #7</title>
+<link rel="stylesheet" href="../style.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEB2R7SLXS"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-ZEB2R7SLXS');
+</script>
+</head>
+<body>
+<h1>Mistake #7: Overlooking Negative Signs</h1>
+<p><em>Section: Math</em></p>
+<div class="section">
+<div class="label">Why students pick it</div>
+<p>They simplify too quickly or forget a negative when moving terms across an equation.</p>
+</div>
+<div class="section">
+<div class="label">Why it’s wrong</div>
+<p>Sign errors can completely change the answer in SAT math problems.</p>
+</div>
+<div class="section">
+<div class="label">What the SAT is testing</div>
+<p>Attention to arithmetic signs and careful computation.</p>
+</div>
+<div class="section">
+<div class="label">How to avoid it</div>
+<p>Write every step clearly, especially when distributing negative signs.</p>
+</div>
+<div class="section">
+<div class="label">Try it yourself!</div>
+<p>Simplify: -3 + 5 – (-2) = ?</p>
+<input type="text" id="answer7">
+<button onclick="checkAnswer7()">Check</button>
+<p id="feedback7"></p>
+</div>
+<script>
+function checkAnswer7(){
+  let val=parseFloat(document.getElementById('answer7').value);
+  if(val===4){document.getElementById('feedback7').textContent="Correct!";}
+  else{document.getElementById('feedback7').textContent="Try Again";}
+}
+</script>
+<a class="button" href="../mistakes.html">← Back to Mistakes</a>
+</body>
+</html>
