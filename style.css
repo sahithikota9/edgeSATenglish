@@ -58,16 +58,7 @@ header .subtitle {
   margin-bottom: 0;
 }
 
-/* Footer */
-footer {
-  text-align: center;
-  padding: 20px;
-  font-size: 0.9rem;
-  color: #555;
-  background-color: #e8f0fe;
-}
-
-/* Vocab Pages */
+/* Vocabulary Page Styles */
 .vocab-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -87,12 +78,7 @@ footer {
   color: #1a73e8;
 }
 
-.subtitle {
-  color: #555;
-  margin-top: -10px;
-}
-
-/* Button style for navigation links */
+/* Buttons / Navigation Links */
 .button {
   display: inline-block;
   margin: 20px;
@@ -106,4 +92,34 @@ footer {
 
 .button:hover {
   background-color: #155bb5;
+}
+
+/* Vocabulary Level Links */
+.vocab-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.vocab-links li {
+  margin: 5px 0;
+}
+
+.vocab-links a {
+  text-decoration: none;
+  color: #1a73e8;
+  font-weight: bold;
+}
+
+.vocab-links a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #555;
+  background-color: #e8f0fe;
 }
