@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Mistake #5</title>
+  <title>Mistake 5 – SAT English Tips</title>
   <link rel="stylesheet" href="../style.css">
+  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEB2R7SLXS"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -13,41 +14,46 @@
   </script>
 </head>
 <body>
-<h1>Mistake #5: Ignoring Units or Conversions</h1>
-<p><em>Section: Math</em></p>
-<div class="section">
-  <div class="label">Why students pick it</div>
-  <p>They read numbers but ignore units (e.g., miles vs. km, hours vs. minutes).</p>
-</div>
-<div class="section">
-  <div class="label">Why it’s wrong</div>
-  <p>The SAT expects answers in the units specified. Ignoring conversions leads to errors.</p>
-</div>
-<div class="section">
-  <div class="label">What the SAT is testing</div>
-  <p>Attention to detail and careful unit conversion.</p>
-</div>
-<div class="section">
-  <div class="label">How to avoid it</div>
-  <p>Always write down units and convert if needed before calculating. Circle or underline units in word problems.</p>
-</div>
-<div class="section">
-  <div class="label">Try it yourself!</div>
-  <p>Convert 5 miles to kilometers. (1 mile ≈ 1.609 km)</p>
-  <input type="text" id="answer5">
-  <button onclick="checkAnswer5()">Check</button>
-  <p id="feedback5"></p>
-</div>
-<script>
-  function checkAnswer5(){
-    let val = parseFloat(document.getElementById('answer5').value);
-    if(Math.abs(val-8.045)<0.01){
-      document.getElementById('feedback5').textContent = "Correct!";
-    } else {
-      document.getElementById('feedback5').textContent = "Try Again";
-    }
-  }
-</script>
-<a class="button" href="../mistakes.html">← Back to Mistakes</a>
+<header>
+  <h1>Mistake 5 – Common SAT English Errors</h1>
+</header>
+<main>
+  <a class="button" href="../index.html">← Back to Home</a>
+  <div class="mistakes-list">
+    <div class="mistake-card">
+      <h3>1. Inconsistent Verb Tense</h3>
+      <p>Incorrect: Yesterday I go to the store.<br>
+         Correct: Yesterday I <strong>went</strong> to the store.<br>
+         <strong>Tip:</strong> Match verb tense to time markers (yesterday → past).</p>
+    </div>
+    <div class="mistake-card">
+      <h3>2. Wrong Preposition</h3>
+      <p>Incorrect: He is good on math.<br>
+         Correct: He is good <strong>at</strong> math.<br>
+         <strong>Tip:</strong> Certain adjectives are always paired with specific prepositions.</p>
+    </div>
+    <div class="mistake-card">
+      <h3>3. Subject Pronoun vs Object Pronoun</h3>
+      <p>Incorrect: Him and I went to the store.<br>
+         Correct: <strong>He</strong> and I went to the store.<br>
+         <strong>Tip:</strong> Use subject pronouns for subjects, object pronouns for objects.</p>
+    </div>
+    <div class="mistake-card">
+      <h3>4. Improper Parallelism</h3>
+      <p>Incorrect: She likes reading, to swim, and jogging.<br>
+         Correct: She likes reading, swimming, and jogging.<br>
+         <strong>Tip:</strong> Make sure elements in a series match in grammatical form.</p>
+    </div>
+    <div class="mistake-card">
+      <h3>5. Incorrect Idiomatic Expression</h3>
+      <p>Incorrect: He is married with a doctor.<br>
+         Correct: He is married <strong>to</strong> a doctor.<br>
+         <strong>Tip:</strong> Learn common SAT idioms (married to, differ from, interested in).</p>
+    </div>
+  </div>
+</main>
+<footer>
+  <p>&copy; 2025 Edge SAT English. All rights reserved.</p>
+</footer>
 </body>
 </html>

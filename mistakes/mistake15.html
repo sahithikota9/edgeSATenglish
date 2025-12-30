@@ -1,50 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Mistake #15</title>
-<link rel="stylesheet" href="../style.css">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEB2R7SLXS"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-ZEB2R7SLXS');
-</script>
+  <meta charset="UTF-8">
+  <title>Mistake 15 – Reading & Writing Tips</title>
+  <link rel="stylesheet" href="../style.css">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEB2R7SLXS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZEB2R7SLXS');
+  </script>
 </head>
 <body>
-<h1>Mistake #15: Estimation Errors</h1>
-<p><em>Section: Math</em></p>
-<div class="section">
-<div class="label">Why students pick it</div>
-<p>They round too early or make rough guesses instead of careful calculation.</p>
-</div>
-<div class="section">
-<div class="label">Why it’s wrong</div>
-<p>Small errors compound and lead to incorrect answers.</p>
-</div>
-<div class="section">
-<div class="label">What the SAT is testing</div>
-<p>Accuracy and careful arithmetic.</p>
-</div>
-<div class="section">
-<div class="label">How to avoid it</div>
-<p>Use precise calculation for each step; only round at the final answer.</p>
-</div>
-<div class="section">
-<div class="label">Try it yourself!</div>
-<p>Estimate 19 × 21 accurately.</p>
-<input type="text" id="answer15">
-<button onclick="checkAnswer15()">Check</button>
-<p id="feedback15"></p>
-</div>
-<script>
-function checkAnswer15(){
-  let val=parseFloat(document.getElementById('answer15').value);
-  if(val===399){document.getElementById('feedback15').textContent="Correct!";}
-  else{document.getElementById('feedback15').textContent="Try Again";}
-}
-</script>
-<a class="button" href="../mistakes.html">← Back to Mistakes</a>
+<header>
+  <h1>Mistake 15 – Reading & Writing</h1>
+</header>
+<main>
+  <a class="button" href="../index.html">← Back to Home</a>
+
+  <section class="passage">
+    <h2>Passage</h2>
+    <p>Renewable energy sources like solar and wind are becoming more viable alternatives to fossil fuels. These technologies reduce carbon emissions and can generate jobs. Yet, intermittency and storage remain technological challenges that must be addressed.</p>
+  </section>
+
+  <section class="questions">
+    <h2>Questions</h2>
+    <ol>
+      <li>What are the benefits of renewable energy mentioned?</li>
+      <li>Identify two challenges associated with renewable energy.</li>
+      <li>Why is storage important in renewable energy?</li>
+    </ol>
+  </section>
+
+  <section class="words-in-context">
+    <h2>Words in Context Tips</h2>
+    <ul>
+      <li><strong>Viable</strong> → practical, workable.</li>
+      <li><strong>Intermittency</strong> → irregular availability.</li>
+      <li><strong>Carbon emissions</strong> → release of CO₂ into atmosphere.</li>
+      <li><strong>Technologies</strong> → applied scientific knowledge.</li>
+      <li><strong>Addressed</strong> → dealt with or solved.</li>
+    </ul>
+    <p><strong>Tip:</strong> Check surrounding sentences for clarifying definitions or examples.</p>
+  </section>
+
+  <section class="mistakes-list">
+    <h2>Common Errors</h2>
+    <div class="mistake-card">
+      <h3>Unique Mistake: Overlooking Keywords</h3>
+      <p>Failing to notice words like "yet" or "must" can cause misinterpretation of contrast or emphasis.</p>
+    </div>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2025 Edge SAT English. All rights reserved.</p>
+</footer>
 </body>
 </html>

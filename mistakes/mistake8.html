@@ -1,50 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Mistake #8</title>
-<link rel="stylesheet" href="../style.css">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEB2R7SLXS"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-ZEB2R7SLXS');
-</script>
+  <meta charset="UTF-8">
+  <title>Mistake 8 – SAT English Tips</title>
+  <link rel="stylesheet" href="../style.css">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEB2R7SLXS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZEB2R7SLXS');
+  </script>
 </head>
 <body>
-<h1>Mistake #8: Confusing Function Inputs/Outputs</h1>
-<p><em>Section: Math</em></p>
-<div class="section">
-<div class="label">Why students pick it</div>
-<p>They plug in x incorrectly or misinterpret f(x) as something else.</p>
-</div>
-<div class="section">
-<div class="label">Why it’s wrong</div>
-<p>Incorrect substitution leads to the wrong value and answer.</p>
-</div>
-<div class="section">
-<div class="label">What the SAT is testing</div>
-<p>Function comprehension and careful substitution.</p>
-</div>
-<div class="section">
-<div class="label">How to avoid it</div>
-<p>Always rewrite f(x) explicitly and plug in the correct number.</p>
-</div>
-<div class="section">
-<div class="label">Try it yourself!</div>
-<p>If f(x) = 2x + 1, what is f(3)?</p>
-<input type="text" id="answer8">
-<button onclick="checkAnswer8()">Check</button>
-<p id="feedback8"></p>
-</div>
-<script>
-function checkAnswer8(){
-  let val=parseFloat(document.getElementById('answer8').value);
-  if(val===7){document.getElementById('feedback8').textContent="Correct!";}
-  else{document.getElementById('feedback8').textContent="Try Again";}
-}
-</script>
-<a class="button" href="../mistakes.html">← Back to Mistakes</a>
+<header>
+  <h1>Mistake 8 – Common SAT English Errors</h1>
+</header>
+<main>
+  <a class="button" href="../index.html">← Back to Home</a>
+  <div class="mistakes-list">
+    <div class="mistake-card">
+      <h3>1. Faulty Comparison</h3>
+      <p>Incorrect: She is smarter than anyone in the class.<br>
+         Correct: She is smarter than <strong>anyone else</strong> in the class.<br>
+         <strong>Tip:</strong> Comparisons need a clear standard of comparison (anyone else, not just anyone).</p>
+    </div>
+    <div class="mistake-card">
+      <h3>2. Redundant Expression</h3>
+      <p>Incorrect: Repeat again the instructions.<br>
+         Correct: Repeat the instructions.<br>
+         <strong>Tip:</strong> Avoid unnecessary words that repeat meaning.</p>
+    </div>
+    <div class="mistake-card">
+      <h3>3. Wrong Pronoun Reference</h3>
+      <p>Incorrect: When John spoke to Mike, he was angry.<br>
+         Correct: When John spoke to Mike, <strong>John</strong> was angry.<br>
+         <strong>Tip:</strong> Ensure pronouns clearly refer to the intended subject.</p>
+    </div>
+    <div class="mistake-card">
+      <h3>4. Improper Use of Colons</h3>
+      <p>Incorrect: I bought: apples, bananas, and oranges.<br>
+         Correct: I bought apples, bananas, and oranges.<br>
+         <strong>Tip:</strong> Colons introduce a list or explanation; don’t place one immediately after a verb.</p>
+    </div>
+    <div class="mistake-card">
+      <h3>5. Incorrect Idiom Usage</h3>
+      <p>Incorrect: He is good in tennis.<br>
+         Correct: He is good <strong>at</strong> tennis.<br>
+         <strong>Tip:</strong> Idioms are fixed expressions; learn the correct prepositions.</p>
+    </div>
+  </div>
+</main>
+<footer>
+  <p>&copy; 2025 Edge SAT English. All rights reserved.</p>
+</footer>
 </body>
 </html>

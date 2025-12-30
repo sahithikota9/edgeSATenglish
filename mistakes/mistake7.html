@@ -1,50 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Mistake #7</title>
-<link rel="stylesheet" href="../style.css">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEB2R7SLXS"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-ZEB2R7SLXS');
-</script>
+  <meta charset="UTF-8">
+  <title>Mistake 7 – SAT English Tips</title>
+  <link rel="stylesheet" href="../style.css">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEB2R7SLXS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZEB2R7SLXS');
+  </script>
 </head>
 <body>
-<h1>Mistake #7: Overlooking Negative Signs</h1>
-<p><em>Section: Math</em></p>
-<div class="section">
-<div class="label">Why students pick it</div>
-<p>They simplify too quickly or forget a negative when moving terms across an equation.</p>
-</div>
-<div class="section">
-<div class="label">Why it’s wrong</div>
-<p>Sign errors can completely change the answer in SAT math problems.</p>
-</div>
-<div class="section">
-<div class="label">What the SAT is testing</div>
-<p>Attention to arithmetic signs and careful computation.</p>
-</div>
-<div class="section">
-<div class="label">How to avoid it</div>
-<p>Write every step clearly, especially when distributing negative signs.</p>
-</div>
-<div class="section">
-<div class="label">Try it yourself!</div>
-<p>Simplify: -3 + 5 – (-2) = ?</p>
-<input type="text" id="answer7">
-<button onclick="checkAnswer7()">Check</button>
-<p id="feedback7"></p>
-</div>
-<script>
-function checkAnswer7(){
-  let val=parseFloat(document.getElementById('answer7').value);
-  if(val===4){document.getElementById('feedback7').textContent="Correct!";}
-  else{document.getElementById('feedback7').textContent="Try Again";}
-}
-</script>
-<a class="button" href="../mistakes.html">← Back to Mistakes</a>
+<header>
+  <h1>Mistake 7 – Common SAT English Errors</h1>
+</header>
+<main>
+  <a class="button" href="../index.html">← Back to Home</a>
+  <div class="mistakes-list">
+    <div class="mistake-card">
+      <h3>1. Sentence Fragments</h3>
+      <p>Incorrect: Because I was tired.<br>
+         Correct: I went to bed early because I was tired.<br>
+         <strong>Tip:</strong> Make sure each sentence has a subject and a verb and expresses a complete thought.</p>
+    </div>
+    <div class="mistake-card">
+      <h3>2. Comma After Conjunction</h3>
+      <p>Incorrect: I went to the store, and bought milk.<br>
+         Correct: I went to the store and bought milk.<br>
+         <strong>Tip:</strong> Do not put a comma before a conjunction unless it separates two independent clauses.</p>
+    </div>
+    <div class="mistake-card">
+      <h3>3. Wrong Pronoun Case</h3>
+      <p>Incorrect: Between you and I, this is secret.<br>
+         Correct: Between you and <strong>me</strong>, this is secret.<br>
+         <strong>Tip:</strong> Use object pronouns after prepositions.</p>
+    </div>
+    <div class="mistake-card">
+      <h3>4. Wrong Adjective Form</h3>
+      <p>Incorrect: She looks more prettier today.<br>
+         Correct: She looks <strong>prettier</strong> today.<br>
+         <strong>Tip:</strong> Avoid double comparative forms (more + adjective ending in -er).</p>
+    </div>
+    <div class="mistake-card">
+      <h3>5. Incorrect Parallel Construction</h3>
+      <p>Incorrect: He likes to swim, biking, and runs.<br>
+         Correct: He likes swimming, biking, and running.<br>
+         <strong>Tip:</strong> Keep the same grammatical form in lists for clarity.</p>
+    </div>
+  </div>
+</main>
+<footer>
+  <p>&copy; 2025 Edge SAT English. All rights reserved.</p>
+</footer>
 </body>
 </html>

@@ -1,50 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Mistake #12</title>
-<link rel="stylesheet" href="../style.css">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEB2R7SLXS"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-ZEB2R7SLXS');
-</script>
+  <meta charset="UTF-8">
+  <title>Mistake 12 – Reading & Writing Tips</title>
+  <link rel="stylesheet" href="../style.css">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEB2R7SLXS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZEB2R7SLXS');
+  </script>
 </head>
 <body>
-<h1>Mistake #12: Not Checking for Extraneous Solutions</h1>
-<p><em>Section: Math</em></p>
-<div class="section">
-<div class="label">Why students pick it</div>
-<p>They solve equations quickly without considering domain restrictions.</p>
-</div>
-<div class="section">
-<div class="label">Why it’s wrong</div>
-<p>Some solutions may not satisfy the original equation or constraints.</p>
-</div>
-<div class="section">
-<div class="label">What the SAT is testing</div>
-<p>Logical reasoning and constraint management.</p>
-</div>
-<div class="section">
-<div class="label">How to avoid it</div>
-<p>Always check each solution against the original problem.</p>
-</div>
-<div class="section">
-<div class="label">Try it yourself!</div>
-<p>Solve √(x) = -2. Does x = 4 work?</p>
-<input type="text" id="answer12">
-<button onclick="checkAnswer12()">Check</button>
-<p id="feedback12"></p>
-</div>
-<script>
-function checkAnswer12(){
-  let val=document.getElementById('answer12').value.trim().toLowerCase();
-  if(val==="no"){document.getElementById('feedback12').textContent="Correct!";}
-  else{document.getElementById('feedback12').textContent="Try Again";}
-}
-</script>
-<a class="button" href="../mistakes.html">← Back to Mistakes</a>
+<header>
+  <h1>Mistake 12 – Reading & Writing</h1>
+</header>
+<main>
+  <a class="button" href="../index.html">← Back to Home</a>
+
+  <section class="passage">
+    <h2>Passage</h2>
+    <p>Urban gardens provide both ecological and social benefits. They reduce air pollution, offer green spaces, and encourage community engagement. Despite limited space in cities, creative solutions like rooftop gardens have become increasingly popular.</p>
+  </section>
+
+  <section class="words-in-context">
+    <h2>Words in Context Tips</h2>
+    <ul>
+      <li><strong>Ecological</strong> → relating to the environment.</li>
+      <li><strong>Engagement</strong> → participation, involvement.</li>
+      <li><strong>Rooftop</strong> → on top of a building.</li>
+      <li><strong>Despite</strong> → in spite of.</li>
+      <li><strong>Increasingly</strong> → more and more over time.</li>
+    </ul>
+    <p><strong>Tip:</strong> Look at surrounding context, identify subject and action to infer meaning of words.</p>
+  </section>
+
+  <section class="mistakes-list">
+    <h2>Common Errors</h2>
+    <div class="mistake-card">
+      <h3>1. Ignoring Context Clues</h3>
+      <p>Use nearby words to help deduce the meaning of unfamiliar vocabulary.</p>
+    </div>
+    <div class="mistake-card">
+      <h3>2. Confusing Cause & Effect</h3>
+      <p>Look for words like "despite," "because," or "therefore" to clarify relationships.</p>
+    </div>
+    <div class="mistake-card">
+      <h3>3. Misreading Tone</h3>
+      <p>Determine if the passage is positive, negative, or neutral to guide answers.</p>
+    </div>
+    <div class="mistake-card">
+      <h3>4. Skipping Transition Words</h3>
+      <p>Words like "despite" indicate contrast; missing them can alter meaning.</p>
+    </div>
+    <div class="mistake-card">
+      <h3>5. Overlooking Key Modifiers</h3>
+      <p>Adjectives and adverbs often signal important differences in meaning.</p>
+    </div>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2025 Edge SAT English. All rights reserved.</p>
+</footer>
 </body>
 </html>
